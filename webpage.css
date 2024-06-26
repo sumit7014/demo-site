@@ -1,0 +1,2179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+ 
+    
+}
+:root{
+    --yellow-color:rgb(213, 183, 31);
+}
+
+@media screen and (min-width:400px) {
+    
+
+
+/* HEADER SECTION STARTS */
+
+
+.header
+{
+    width: 100rem;
+    height: 7rem;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.nameandlogo{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    align-items: center;
+}
+
+
+.list
+{
+    list-style-type: none;
+    display: inline;
+    padding: .75rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+
+.listlink{
+    text-decoration: none;
+    color: rgba(49, 48, 48, 0.73);
+    transition: color 0.20s linear;
+}
+
+
+.listlink:hover{
+color:var(--yellow-color) ;
+}
+
+
+#logo{
+    height: 5rem;
+    width: 5rem;
+    margin-top: .25rem;
+}
+
+#sitename{
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  
+}
+
+.contactbutton{
+    margin-right: 8rem;
+    display:flex;
+    justify-content: center;
+}
+
+#contactus{
+    font-size: large;
+    width: 120px;
+    height: 40px;
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+}
+
+#contactus:hover{
+    background-color:rgb(66, 57, 21) ;
+}
+    
+
+
+/* HEADER SECTION ENDS*/
+
+
+
+/* MAIN SECTION STARTS */
+
+/* TEXTBOX */
+
+.main
+{
+    display: flex;
+    width: 95rem;
+    align-items: center;
+    height: 35rem;
+}
+
+
+
+
+.text{
+    width: 50rem;
+    height: 35rem;
+    align-self: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mainheading1
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:3rem;
+    color: var(--yellow-color);
+    margin-left: 2rem;
+    
+}
+
+
+#mainheading2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+#maindescription
+{
+    
+    color: rgba(0, 0, 0, 0.719);
+   
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: .60rem;
+    margin-left: 2rem;
+}
+
+
+#mainbookbutton
+{
+    margin-top: 3rem;
+    width: 10rem;
+    height: 3.5rem;
+    align-self: center;
+    font-size: large;
+ 
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+}
+
+#mainbookbutton:hover{
+    background-color:rgb(66, 57, 21) ;
+}
+
+/* IMAGE BOX */
+
+.img
+{
+    width: 50rem;
+    height: 35rem;
+    align-self: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bannerimg{
+    height: 35rem;
+    width: 40rem;
+}
+/* MAIN SECTION STARTS */
+
+
+/* HERO SECTION STARTS */
+
+.herosection
+{
+    width: 100rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#herotext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 2.25rem;
+}
+
+.heroouterbox{
+    width: 22rem;
+    height: 8rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    border-radius: .9rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+    margin-top: .7rem;
+}
+
+.herobox{
+    width: 22rem;
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#herobox1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#googleimg
+{
+    width: 1.875rem;
+    height: 1.875rem;
+   
+}
+
+#googletext{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    color: #737373;
+    font-size: 1.25rem;
+}
+
+#herobox2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#microsoftimg
+{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+#microsofttext{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    color: #737373;
+    font-size: 1.25rem;
+}
+
+/* HERO SECTION ENDS */
+
+
+/* WHY US SECTION STARTS */
+
+.whyus
+{
+    width: 95rem;
+    height: 62.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3.75rem;
+}
+
+.whyuscontent
+{
+    width: 90rem;
+    height: 65rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.whyustext
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#whyusmaintext{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 1.875rem;
+    margin-top: 1.25rem;
+}
+
+#whyussectext{
+    width: 40rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #737373;
+}
+
+.whyuscards
+{
+    display: grid;
+    grid-template-areas: 
+                          "card1 card2"
+                          "card3 card4";
+    row-gap: 6.25rem;
+    place-content: center;
+    column-gap: 9.375rem;
+    margin-top: 5rem;
+}
+
+.card1{
+    grid-area: card1;
+    width: 31.25rem;
+    height: 18.75rem;
+    background-color: rgba(0, 0, 255, 0.349);
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    transition: all 0.25s linear;
+}
+
+.card1:hover{
+    transform: scale(1.05);
+}
+
+#card1maintext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    color: white;
+    font-size: 1.5625rem;
+    margin-top: 1.5625rem;
+}
+
+#card1sectext{
+text-align: center;
+width: 25rem;
+margin-top: .625rem;
+font-size: 1rem;
+color: white;
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.card2{
+    grid-area: card2;
+    width: 31.25rem;
+    height: 18.75rem;
+    background-color: rgba(255, 0, 149, 0.347);
+    border-radius: 1.5625rem;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    transition: all 0.25s linear;
+}
+
+.card2:hover{
+    transform: scale(1.05);
+}
+
+#card2maintext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    color: white;
+    font-size: 1.5625rem;
+    margin-top: 1.5625rem;
+}
+
+#card2sectext{
+text-align: center;
+width: 25rem;
+margin-top: 0.625rem;
+font-size: 1rem;
+color: white;
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+
+.card3{
+    grid-area: card3;
+    width: 31.25rem;
+    height: 18.75rem;
+    background-color: rgba(38, 105, 16, 0.608);
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    transition: all 0.25s linear;
+}
+
+.card3:hover{
+    transform: scale(1.05);
+}
+
+#card3maintext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    color: white;
+    font-size: 1.5625rem;
+    margin-top: 1.5625rem;
+}
+
+#card3sectext{
+text-align: center;
+width: 25rem;
+margin-top: 0.625rem;
+font-size: 1rem;
+color: white;
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+
+.card4{
+    grid-area: card4;
+    width: 31.25rem;
+    height: 18.75rem;
+    background-color: rgba(255, 0, 0, 0.441);
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    transition: all 0.25s linear;
+}
+
+.card4:hover{
+    transform: scale(1.05);
+}
+
+#card4maintext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    color: white;
+    font-size: 1.5625rem;
+    margin-top: 1.5625rem;
+}
+
+#card4sectext{
+text-align: center;
+width: 25rem;
+margin-top: 0.625rem;
+font-size: 1rem;
+color: white;
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+/* WHY US SECTION ENDS */
+
+/* TESTIMONIALS SECTION STARTS */
+
+
+.testimonials{
+    width: 95rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonailstextbox
+{
+    margin-top: 7.5rem;
+    width: 95rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#testimaintext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 3.75rem;
+}
+
+.testimonialscontent
+{
+    width: 95rem;
+    height: 25rem;
+    display: grid;
+    grid-template-areas: "tcard1 tcard2 tcard3";
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3.45rem;
+    
+}
+
+.tcard1{
+        grid-area: tcard1;
+        height: 28.125rem;
+        width: 25rem;
+        background-color: rgba(128, 128, 128, 0.284);
+        border-radius: 1.5625rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+}
+
+#tcard1desc{
+    text-align: center;
+    margin-top: 1.25rem;
+    width: 20rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+#tcard1img{
+    height: 6.25rem;
+    width: 6.25rem;
+    margin-top: 1rem;
+}
+
+#tcard1name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-top: .625rem;
+    color: var(--yellow-color);
+    text-shadow: 0px 0px .50px black ;
+}
+
+#tcard1desig
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #737373;
+}
+
+
+
+.tcard2{
+        grid-area: tcard2;
+        height: 28.125rem;
+        width: 25rem;
+        background-color: rgba(128, 128, 128, 0.284);
+        border-radius: 1.5625rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+}
+
+#tcard2desc{
+    text-align: center;
+    margin-top: 1.25rem;
+    width: 20rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+#tcard2img{
+    height: 6.25rem;
+    width: 6.25rem;
+    margin-top: 1rem;
+}
+
+#tcard2name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-top: .625rem;
+    color: var(--yellow-color);
+    text-shadow: 0px 0px .50px black ;
+}
+
+#tcard2desig
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #737373;
+}
+
+.tcard3{
+        grid-area: tcard3;
+        height: 28.125rem;
+        width: 25rem;
+        background-color: rgba(128, 128, 128, 0.284);
+        border-radius: 1.5625rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+}
+
+#tcard3desc{
+    text-align: center;
+    margin-top: 1.25rem;
+    width: 20rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+#tcard3img{
+    height: 6.25rem;
+    width: 6.25rem;
+    margin-top: 1rem;
+}
+
+#tcard3name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-top: .625rem;
+    color: var(--yellow-color);
+    text-shadow: 0px 0px .50px black ;
+}
+
+#tcard3desig
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #737373;
+}
+        
+/* TESTIMONIALS SECTION ENDS */
+
+/* TAG SECTION STARTS */
+
+.tag
+{
+    width: 95rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(128, 128, 128, 0.284);
+  
+}
+
+
+
+#tagtext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5625rem;
+    color:#737373;
+}
+
+/* TAG SECTION ENDS */
+
+
+/* NEWSLETTER SECTION STARTS */
+
+.newsletter
+{
+    width: 95rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletterbox{
+    width: 50rem;
+    height: 20rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    display: flex;
+    border-radius: 1rem;
+    
+
+}
+
+.newsletterbox1{
+    width: 20rem;
+    height: 20rem;
+}
+
+#newsimg{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.newsletterbox2{
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.newstextmain{
+width: 30rem;
+height: 6rem;
+margin-left: 1rem;
+}
+
+#newstextmain1{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    color: var(--yellow-color);
+    font-size: 2.5rem;
+}
+
+#newstextmain2{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    font-size: 1.25rem;
+}
+
+.newsinputandbutton{
+    width: 40rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+#newsinput
+{
+    border: none;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: .625rem;
+    text-align: center;
+}
+
+#newsbutton
+{
+    width: 5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: .625rem;
+    margin-left: 1.25rem;
+    background-color: var(--yellow-color);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 2px black;
+    transition: all .20s linear;
+}
+
+#newsbutton:hover{
+    background-color:rgb(66, 57, 21) ;
+    }
+
+.disc{
+    width: 40rem;
+    height: .5rem;
+    margin-left: 1rem;
+    }
+
+#newsdisc{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #737373;
+    font-size: .625rem;
+}
+
+
+
+/* NEWSLETTER SECTION ENDS */
+
+/* FOOTER SECTION STARTS */
+
+.footer{
+    width: 95rem;
+    height: 30rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footercontent{
+    width: 95rem;
+    height: 30rem;
+    display: grid;
+    grid-template-areas: "fcard1 fcard2 fcard3 fcard4 fcard5";
+
+}
+
+.fcard1
+{
+    grid-area: fcard1;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.fcard1box1
+{
+width: 45rem;
+height: 10rem;
+display: flex;
+align-items: center;
+margin-left: 3.75rem;
+margin-top: 1.25rem;
+}
+
+#footerlogo
+{
+width: 6.25rem;
+height: 6.25rem;
+}
+
+#footersitename
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+#footertagline{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    margin-left: 5rem;
+    font-size: 1.25rem;
+}
+
+.fcard1box2{
+margin-left: 4.0625rem;
+margin-top: 3.75rem;
+
+}
+
+.footersocial
+{
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-left: 1rem ;
+}
+
+
+
+.fcard2
+{
+    grid-area: fcard2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footerpro
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.footerproductslinks
+{
+text-decoration: none;
+}
+
+.footerproducts
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    transition: color 0.20s linear;
+    
+}
+
+.footerproducts:hover{
+    color:var(--yellow-color) ;
+    }
+    
+
+.fcard3
+{
+    grid-area: fcard3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footercom
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.footercompanyslinks
+{
+text-decoration: none;
+}
+
+.footercompanys
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    transition: color 0.20s linear;
+}
+
+.footercompanys:hover
+{
+    color:var(--yellow-color) ;
+}
+
+.fcard4
+{
+    grid-area: fcard4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footersupp
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.footersupportslinks
+{
+text-decoration: none;
+}
+
+.footersupports
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    transition: color 0.20s linear;
+}
+
+
+.footersupports:hover
+{
+    color:var(--yellow-color) ;
+}
+
+.fcard5
+{
+    grid-area: fcard5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 4.0625rem;
+}
+
+#footerleg
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.footerlegalslinks
+{
+text-decoration: none;
+}
+
+.footerlegals
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    transition: color 0.20s linear;
+}
+
+.footerlegals:hover
+{
+    color:var(--yellow-color) ;
+}
+
+
+.footercopyright
+{
+    display: flex;
+    align-items: center;
+    width: 95rem;
+    height: 5rem;
+    justify-content: center;
+    border-top: 1px solid #737373;
+}
+
+#footercopyrighttext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+}
+
+
+/* FOOTER SECTION ENDS */
+}
+
+@media screen and (max-width:400px)
+{
+    
+
+/* HEADER start */
+
+.header
+{
+    width: 50rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column; 
+justify-content: space-between;
+
+}
+
+.nameandlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo{
+    height: 10rem;
+    width: 10rem;
+    margin-top: .5rem;
+}
+
+#sitename{
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3rem;
+    
+  }
+
+  .nav
+  {
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+  }
+
+  .list
+  {
+      list-style-type: none;
+      display: inline;
+      padding: .75rem;
+      font-family: "Kanit", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 1.25rem;
+      
+      
+      
+  }
+
+  .listlink{
+    text-decoration: none;
+    color: rgba(49, 48, 48, 0.73);
+    transition: color 0.20s linear;
+}
+
+.listlink:hover{
+    color:var(--yellow-color) ;
+    }
+
+    #contactus{
+        display: none;
+    }
+
+
+    /* HEADER end */
+
+    /* MAIN start */
+
+
+
+    .main
+    {
+        width: 50rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.5rem;
+        
+    }
+
+
+    
+.text{
+    width: 50rem;
+    height: 32rem;
+    align-self: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mainheading1
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:4.5rem;
+    color: var(--yellow-color);
+    margin-left: .5rem;
+}
+
+#mainheading2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 4.5rem;
+    margin-left: .5rem;
+}
+
+#maindescription
+{
+    
+    color: rgba(0, 0, 0, 0.719);
+   width: 90%;
+    font-size: 1.5rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: .60rem;
+    margin-left: .5rem;
+    
+}
+
+#mainbookbutton
+{
+    margin-top: 1rem;
+    width: 10rem;
+    height: 3rem;
+    align-self: center;
+    font-size: large;
+ 
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+}
+
+#mainbookbutton:hover{
+    background-color:rgb(66, 57, 21) ;
+}
+
+
+.img
+{
+    width: 50rem;
+    height: 42rem;
+    align-self: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#bannerimg
+{
+    width: 40rem;
+    height: 40rem;
+}
+
+/* MAIN end */
+
+/* HERO start */
+
+.herosection
+{
+    width: 50rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#herotext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 2.25rem;
+}
+
+.heroouterbox{
+    width: 10rem;
+    height: 20rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    border-radius: .9rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+    margin-top: .7rem;
+}
+
+.herobox{
+    width: 10rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+
+#herobox1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#googleimg
+{
+    width: 2rem;
+    height: 2rem;
+   
+}
+
+#googletext{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    color: #737373;
+    font-size: 1.25rem;
+    margin-top: .5rem;
+}
+
+#herobox2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#microsoftimg
+{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+#microsofttext{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    color: #737373;
+    font-size: 1.25rem;
+    margin-top: .5rem;
+}
+
+/* HERO end */
+
+/* WHYUS starts */
+
+.whyus
+{
+    width: 50rem;
+    height: 125rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3.75rem;
+}
+
+.whyuscontent
+{
+    width: 45rem;
+    height: 120rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.whyustext
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#whyusmaintext{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 1.875rem;
+    margin-top: 1.25rem;
+}
+
+#whyussectext{
+    width: 42rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #737373;
+    font-size: 1.25rem;
+}
+
+.whyuscards
+{
+    display: grid;
+    grid-template-areas: 
+                          "card1 "
+                           "card2"
+                          "card3 "
+                           "card4";
+    row-gap: 6.25rem;
+    place-content: center;
+    column-gap: 9.375rem;
+    margin-top: 5rem;
+}
+
+.card1{
+    grid-area: card1;
+    width: 31.25rem;
+    height: 18.75rem;
+    background-color: rgba(0, 0, 255, 0.349);
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    transition: all 0.25s linear;
+}
+
+.card1:hover{
+    transform: scale(1.05);
+}
+
+#card1maintext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    color: white;
+    font-size: 1.5625rem;
+    margin-top: 1.5625rem;
+}
+
+#card1sectext{
+text-align: center;
+width: 25rem;
+margin-top: .625rem;
+font-size: 1rem;
+color: white;
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.card2{
+    grid-area: card2;
+    width: 31.25rem;
+    height: 18.75rem;
+    background-color: rgba(255, 0, 149, 0.347);
+    border-radius: 1.5625rem;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    transition: all 0.25s linear;
+}
+
+.card2:hover{
+    transform: scale(1.05);
+}
+
+#card2maintext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    color: white;
+    font-size: 1.5625rem;
+    margin-top: 1.5625rem;
+}
+
+#card2sectext{
+text-align: center;
+width: 25rem;
+margin-top: 0.625rem;
+font-size: 1rem;
+color: white;
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.card3{
+    grid-area: card3;
+    width: 31.25rem;
+    height: 18.75rem;
+    background-color: rgba(38, 105, 16, 0.608);
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    transition: all 0.25s linear;
+}
+
+.card3:hover{
+    transform: scale(1.05);
+}
+
+#card3maintext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    color: white;
+    font-size: 1.5625rem;
+    margin-top: 1.5625rem;
+}
+
+#card3sectext{
+text-align: center;
+width: 25rem;
+margin-top: 0.625rem;
+font-size: 1rem;
+color: white;
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.card4{
+    grid-area: card4;
+    width: 31.25rem;
+    height: 18.75rem;
+    background-color: rgba(255, 0, 0, 0.441);
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    transition: all 0.25s linear;
+}
+
+.card4:hover{
+    transform: scale(1.05);
+}
+
+#card4maintext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    color: white;
+    font-size: 1.5625rem;
+    margin-top: 1.5625rem;
+}
+
+#card4sectext{
+text-align: center;
+width: 25rem;
+margin-top: 0.625rem;
+font-size: 1rem;
+color: white;
+}
+
+/* WHHYUS ends */
+
+/* TESTIMONIAL starts */
+
+.testimonials{
+    width: 50rem;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonailstextbox
+{
+    margin-top: 1.5rem;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#testimaintext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.testimonialscontent
+{
+    width: 50rem;
+    height: 100rem;
+    display: grid;
+    grid-template-areas: "tcard1"
+                         "tcard2"
+                         "tcard3";
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.45rem;
+    
+}
+
+.tcard1{
+    grid-area: tcard1;
+    height: 28.125rem;
+    width: 25rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+}
+
+#tcard1desc{
+text-align: center;
+margin-top: 1.25rem;
+width: 20rem;
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1.25rem;
+}
+
+#tcard1img{
+height: 6.25rem;
+width: 6.25rem;
+margin-top: 1rem;
+}
+
+#tcard1name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-top: .625rem;
+    color: var(--yellow-color);
+    text-shadow: 0px 0px .50px black ;
+}
+
+#tcard1desig
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #737373;
+}
+
+.tcard2{
+    grid-area: tcard2;
+    height: 28.125rem;
+    width: 25rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+}
+
+#tcard2desc{
+text-align: center;
+margin-top: 1.25rem;
+width: 20rem;
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1.25rem;
+}
+
+#tcard2img{
+height: 6.25rem;
+width: 6.25rem;
+margin-top: 1rem;
+}
+
+#tcard2name
+{
+font-family: "Kanit", sans-serif;
+font-weight: 700;  
+font-style: normal;
+font-size: 1.25rem;
+margin-top: .625rem;
+color: var(--yellow-color);
+text-shadow: 0px 0px .50px black ;
+}
+
+#tcard2desig
+{
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1.25rem;
+color: #737373;
+}
+
+.tcard3{
+    grid-area: tcard3;
+    height: 28.125rem;
+    width: 25rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+}
+
+#tcard3desc{
+text-align: center;
+margin-top: 1.25rem;
+width: 20rem;
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1.25rem;
+}
+
+#tcard3img{
+height: 6.25rem;
+width: 6.25rem;
+margin-top: 1rem;
+}
+
+#tcard3name
+{
+font-family: "Kanit", sans-serif;
+font-weight: 700;  
+font-style: normal;
+font-size: 1.25rem;
+margin-top: .625rem;
+color: var(--yellow-color);
+text-shadow: 0px 0px .50px black ;
+}
+
+#tcard3desig
+{
+font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1.25rem;
+color: #737373;
+}
+
+/* TESTIMONAIL ends */
+
+/* TAG starts */
+
+.tag
+{
+    width: 50rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(128, 128, 128, 0.284);
+    margin-top: 4rem;
+  
+}
+
+
+
+#tagtext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5625rem;
+    color:#737373;
+}
+
+/* TAG ends */
+
+/* NEWSLETTER starts */
+
+.newsletter
+{
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletterbox{
+    width: 45rem;
+    height: 20rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    display: flex;
+    border-radius: 1rem;
+}
+
+.newsletterbox1{
+    width: 20rem;
+    height: 20rem;
+}
+
+#newsimg{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.newsletterbox2{
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newstextmain{
+    width: 25rem;
+    height: 5rem;
+    margin-left: 1rem;
+    }
+
+    #newstextmain1{
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;  
+        font-style: normal;
+        color: var(--yellow-color);
+        font-size: 2rem;
+    }
+    
+    #newstextmain2{
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #737373;
+        font-size: 1.25rem;
+    }
+    
+    .newsinputandbutton{
+        width: 25rem;
+        height: 3rem;
+        margin-left: 1rem;
+    }
+
+    #newsinput
+{
+    border: none;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: .625rem;
+    text-align: center;
+}
+
+#newsbutton
+{
+    width: 5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: .625rem;
+    margin-left: 1.25rem;
+    background-color: var(--yellow-color);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 2px black;
+    transition: all .20s linear;
+}
+
+#newsbutton:hover{
+    background-color:rgb(66, 57, 21) ;
+    }
+
+.disc{
+    width: 20rem;
+    height: .5rem;
+    margin-left: 1rem;
+    }
+
+#newsdisc{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #737373;
+    font-size: 1rem;
+}
+
+
+/* NEWSLETTER ends */
+
+/* FOOTER starts */
+
+.footer{
+    width: 50rem;
+    height: 100rem;
+    background-color: rgba(128, 128, 128, 0.284);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footercontent{
+    width: 50rem;
+    height: 100rem;
+    display: grid;
+    grid-template-areas: "fcard1 "
+    "fcard2"
+     "fcard3" 
+     "fcard4"
+      "fcard5";
+
+}
+
+.fcard1
+{
+    grid-area: fcard1;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.fcard1box1
+{
+width: 40rem;
+height: 10rem;
+display: flex;
+align-items: center;
+margin-left: 5rem;
+margin-top: 1.25rem;
+justify-content: center;
+}
+
+#footerlogo
+{
+width: 6.25rem;
+height: 6.25rem;
+}
+
+#footersitename
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+#footertagline{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    margin-left: 6rem;
+    font-size: 1.25rem;
+    text-align: center;
+    width: 40rem;
+}
+
+.fcard1box2{
+    width: 40rem;
+display: flex;
+margin-top: 2rem;
+justify-content: center;
+margin-left: 5rem;
+}
+
+.footersocial
+{
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-left: 1rem ;
+}
+
+
+
+.fcard2
+{
+    grid-area: fcard2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+    width: 40rem;
+    margin-left: 6rem;
+}
+
+#footerpro
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 1.75rem;
+}
+
+.footerproductslinks
+{
+text-decoration: none;
+}
+
+.footerproducts
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    transition: color 0.20s linear;
+    font-size: 1.25rem;
+    margin: .5rem;
+}
+
+.footerproducts:hover{
+    color:var(--yellow-color) ;
+    }
+    
+
+.fcard3
+{
+    grid-area: fcard3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 6rem;
+    width: 40rem;
+    margin-top: 2rem;
+}
+
+#footercom
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 1.75rem;
+}
+
+.footercompanyslinks
+{
+text-decoration: none;
+}
+
+.footercompanys
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    transition: color 0.20s linear;
+    font-size: 1.25rem;
+    margin: .5rem;
+}
+
+.footercompanys:hover
+{
+    color:var(--yellow-color) ;
+}
+
+.fcard4
+{
+    grid-area: fcard4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 6rem;
+    width: 40rem;
+    margin-top: 2rem;
+}
+
+#footersupp
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 1.75rem;
+}
+
+.footersupportslinks
+{
+text-decoration: none;
+}
+
+.footersupports
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    transition: color 0.20s linear;
+    font-size: 1.25rem;
+    margin: .5rem;
+}
+
+
+.footersupports:hover
+{
+    color:var(--yellow-color) ;
+}
+
+.fcard5
+{
+    grid-area: fcard5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    margin-left: 6rem;
+    width: 40rem;
+    margin-top: 2rem;
+}
+
+#footerleg
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 1.75rem;
+}
+
+.footerlegalslinks
+{
+text-decoration: none;
+}
+
+.footerlegals
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    transition: color 0.20s linear;
+    margin: .5rem;
+    font-size: 1.25rem;
+}
+
+.footerlegals:hover
+{
+    color:var(--yellow-color) ;
+}
+
+
+.footercopyright
+{
+    display: flex;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+    justify-content: center;
+    border-top: 1px solid #737373;
+
+}
+
+#footercopyrighttext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #737373;
+    font-size: 1.15rem;
+}
+/* FOOTER ends */
+} 

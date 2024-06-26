@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rent.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+    <title>Rent</title>
+</head>
+<body>
+
+ <header class="header">
+        <div class="nameandlogo">
+            <img id="logo" src="sun.png">
+           
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li class="list"><a class="listlink" href="webpage.html">Home</a></li>
+                <li class="list"><a class="listlink" href="rent.html">Rent</a></li>
+                <li class="list"><a class="listlink" href="book.html">Book</a></li>
+                <li class="list"><a class="listlink" href="about.html">About</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <p id="enterdetails">Please enter your details</p>
+
+    <form>
+
+    <main class="formbox">
+
+        <div class="formcontent">
+     
+          <div class="name">
+               
+                <label for="formname">Enter your name :</label>
+                <input type="name" id="formname" placeholder="name">       
+
+          </div>
+
+          
+          <div class="address">
+               
+            <label for="formaddress">Enter your address :</label>
+            <input type="address" id="formaddress" placeholder="address">       
+
+          </div>
+
+          <div class="phone">
+               
+            <label for="formphone">Enter your mobile no. :</label>
+            <input type="tel" id="formphone" placeholder="phone number">       
+
+          </div>
+
+          <div class="email">
+               
+            <label for="formemail">Enter your email address :</label>
+            <input type="email" id="formemail" placeholder="abc@gmail.com">       
+          
+          </div>
+
+          <div class="cartype">
+            <label for="formcartype">Please choose car type :</label>
+            <select name="cartype" id="formcartype" value="none">
+                <option value="none">None</option>
+                <option value="hatchback">Hatchback</option>
+                <option value="sedan">Sedan</option>
+                <option value="wagon">Wagon</option>
+                <option value="Coupe">Coupe</option>
+                <option value="suv">SUV</option>
+                <option value="minivan">Minivan</option>
+                <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="carname">
+               
+            <label for="formcarname">Enter your car's company & name :</label>
+            <input type="text" id="formcarname" placeholder="car's company & name"> 
+          
+          </div>  
+
+          <div class="uploadimage">
+               
+            <label for="formuploadimage">Upload your car's images :</label>
+            <label id="uploadimgbutton" for="formuploadimage">Click here to upload</label>
+            <input type="file" id="formuploadimage" accept=".img,.png,.jpeg,.jpg" multiple hidden> 
+          
+          </div>
+
+          <div class="textbox">
+               
+             <label for="formtextbox">Specify if there's any defect/scratch etc : </label>
+             <textarea id="formtextbox" placeholder="type here"> </textarea>
+          
+          </div>   
+
+
+          <div class="mainbuttons">
+            
+            <div class="submitreset">
+                 <button id="mainsubmitbutton">SUBMIT </button> 
+                <input type="reset" value="RESET" id="mainresetbutton">
+            </div>
+            
+
+            <a href="webpage.html"><p id="gohometext">go back to home page</p></a>
+          </div>
+
+
+
+
+           
+
+
+       
+        </div>
+
+    </main>
+    
+</form>
+
+</body>
+</html>

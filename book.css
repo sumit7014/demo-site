@@ -1,0 +1,1247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  
+    
+}
+:root{
+    --yellow-color:rgb(213, 183, 31);
+    --graytext-color:#737373;
+    --graybgc-color:rgba(128, 128, 128, 0.284);
+
+}
+
+
+.header
+{
+    width: 95rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nameandlogo{
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
+
+
+.list
+{
+    list-style-type: none;
+    display: inline;
+    padding: .75rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+    
+    
+}
+
+
+.listlink{
+    text-decoration: none;
+    color: rgba(49, 48, 48, 0.73);
+    transition: color 0.20s linear;
+}
+
+
+.listlink:hover{
+color:var(--yellow-color) ;
+}
+
+
+#logo{
+    height: 6rem;
+    width: 6rem;
+    margin-top: 1rem;
+}
+
+.catalogue
+{
+    width: 95rem;
+    height: 175rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.catcontent
+{
+    
+    margin-top: 5rem;
+    width:  90rem;
+    height: 150rem;
+    display: grid;
+    grid-template-areas: "card1 card2 card3"
+                         "card4 card5 card6"
+                         "card7 card8 card9"
+                         "card10 card11 card12";
+                         gap: 2rem;
+}
+
+.card1
+{
+    grid-area: card1;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card1:hover{
+    transform: scale(1.05);
+}
+
+#card1img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card1name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card1price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card1loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card1buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card1button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card1button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card1button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card2
+{
+    grid-area: card2;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card2:hover{
+    transform: scale(1.05);
+}
+
+#card2img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card2name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card2price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card2loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card2buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card2button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card2button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card2button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card3
+{
+    grid-area: card3;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card3:hover{
+    transform: scale(1.05);
+}
+
+#card3img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card3name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card3price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card3loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card3buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card3button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card3button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card3button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card4
+{
+    grid-area: card4;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card4:hover{
+    transform: scale(1.05);
+}
+
+#card4img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card4name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card4price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card4loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card4buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card4button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card4button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card4button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card5
+{
+    grid-area: card5;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card5:hover{
+    transform: scale(1.05);
+}
+
+#card5img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card5name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card5price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card5loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card5buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card5button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card5button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card5button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card6
+{
+    grid-area: card6;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card6:hover{
+    transform: scale(1.05);
+}
+
+#card6img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card6name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card6price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card6loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card6buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card6button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card6button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card6button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card7
+{
+    grid-area: card7;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card7:hover{
+    transform: scale(1.05);
+}
+
+#card7img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card7name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card7price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card7loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card7buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+    
+}
+
+#card7button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card7button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card7button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card8
+{
+    grid-area: card8;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card8:hover{
+    transform: scale(1.05);
+}
+
+#card8img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card8name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card8price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card8loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card8buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card8button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card8button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card8button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card9
+{
+    grid-area: card9;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card9:hover{
+    transform: scale(1.05);
+}
+
+#card9img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card9name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card9price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card9loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card9buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card9button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card9button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card9button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card10
+{
+    grid-area: card10;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card10:hover{
+    transform: scale(1.05);
+}
+
+#card10img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card10name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card10price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card10loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card10buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card10button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card10button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card10button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card11
+{
+    grid-area: card11;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card11:hover{
+    transform: scale(1.05);
+}
+
+#card11img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card11name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card11price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card11loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card11buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card11button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card11button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card11button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.card12
+{
+    grid-area: card12;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 40rem;
+    transition: all .25s linear;
+    background-color: var(--graybgc-color);
+    border-radius: 2rem;
+}
+
+.card12:hover{
+    transform: scale(1.05);
+}
+
+#card12img
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+#card12name
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+#card12price
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#card12loc
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--graytext-color);
+    margin-top: .75rem;
+    font-size: 1.5rem;
+}
+
+.card12buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+    
+}
+
+#card12button1
+{
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    box-shadow: 0px 0px 5px black;
+    transition: all .20s linear;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+#card12button1:hover
+{
+    background-color: rgb(66, 57, 21);
+    transform: scale(1.15);
+}
+
+#card12button2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+    
+}
+
+.switchpage{
+    width: 95rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.page
+{
+    width: 8rem;
+    display: flex;
+    justify-content: space-between;
+}

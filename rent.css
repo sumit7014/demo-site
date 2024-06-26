@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  
+    
+}
+:root{
+    --yellow-color:rgb(213, 183, 31);
+    --graytext-color:#737373;
+    --graybgc-color:rgba(128, 128, 128, 0.284);
+
+}
+
+
+.header
+{
+    width: 95rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nameandlogo{
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
+
+
+.list
+{
+    list-style-type: none;
+    display: inline;
+    padding: .75rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+    
+    
+}
+
+
+.listlink{
+    text-decoration: none;
+    color: rgba(49, 48, 48, 0.73);
+    transition: color 0.20s linear;
+}
+
+
+.listlink:hover{
+color:var(--yellow-color) ;
+}
+
+
+#logo{
+    height: 6rem;
+    width: 6rem;
+    margin-top: 1rem;
+}
+
+.formbox
+{
+    width: 95rem;
+    height: 120rem;
+    display: flex;
+    justify-content: center;
+}
+
+#enterdetails
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 3rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    color: var(--yellow-color );
+}
+
+.formcontent
+{
+    width: 95%;
+    height: 100%;
+    background-color: var(--graybgc-color);
+    border-radius: 3rem;
+    
+}
+
+label{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.name{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+#formname
+{
+    border: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;  
+    font-style: normal;
+    margin-left: 2rem;
+    height: 4rem;
+    width: 25rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.address{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+#formaddress
+{
+    border: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;  
+    font-style: normal;
+    margin-left: 2rem;
+    height: 4rem;
+    width: 25rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.phone{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+#formphone
+{
+    border: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;  
+    font-style: normal;
+    margin-left: 2rem;
+    height: 4rem;
+    width: 25rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.email{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+#formemail
+{
+    border: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;  
+    font-style: normal;
+    margin-left: 2rem;
+    height: 4rem;
+    width: 25rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+
+.cartype{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+#formcartype
+{
+    border: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;  
+    font-style: normal;
+    margin-left: 2rem;
+    height: 4rem;
+    width: 25rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+
+.carname{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+#formcarname
+{
+    border: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;  
+    font-style: normal;
+    margin-left: 2rem;
+    height: 4rem;
+    width: 25rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.uploadimage{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+#uploadimgbutton
+{
+border: 0px solid black;
+margin-left: 5rem;
+width: 20rem;
+color: white;
+font-size: 2rem;
+text-align: center;
+border-radius: .75rem;
+background-color: var(--yellow-color);
+transition: all .15s linear;
+}
+
+#uploadimgbutton:hover{
+    background-color: rgb(66, 57, 21);
+}
+
+.textbox
+{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+#formtextbox
+{
+    border: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;  
+    font-style: normal;
+    margin-left: 2rem;
+    height: 10rem;
+    width: 25rem;
+    border-radius: .5rem;
+    text-align: center;
+    margin-top: 4rem;
+    resize: none;
+}
+
+.mainbuttons
+{
+    width: 100%;
+    height: 10rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submitreset
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+#mainsubmitbutton
+{
+    margin-top: 3rem;
+    width: 10rem;
+    height: 3.5rem;
+    align-self: center;
+    font-size: large;
+ 
+    background-color: var(--yellow-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    
+    transition: all .20s linear;
+}
+
+#mainsubmitbutton:hover{
+    background-color:rgb(66, 57, 21) ;
+}
+
+
+
+
+#mainresetbutton
+{
+    margin-top: 3rem;
+    width: 10rem;
+    height: 3.5rem;
+    align-self: center;
+    font-size: large;
+ 
+    background-color: black ;
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    
+    transition: all .20s linear;
+}
+
+#mainresetbutton:hover
+{
+    background-color: red;
+}
+
+
+#gohometext
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;  
+    font-style: normal;
+    margin-top: 3rem;
+}
